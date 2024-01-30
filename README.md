@@ -25,5 +25,3 @@ NOTE: User can download a free version of SIMIO from:
 
 This repository is related to the following paper:
 
-Moncayo-Martínez, L.A.; Arias-Nava, E.H. Assessing by Simulation the Effect of Process Variability in the SALB-1 Problem. AppliedMath 2023, 3, 563-581. https://doi.org/10.3390/appliedmath3030030
-
