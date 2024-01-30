@@ -1,13 +1,16 @@
 # Stochastic_SLAB2
 Solving the stochastic SALB 2 problem using exact methods and simulation using GUROBI and SIMIO.
 
-This project has the files of a proposed three-part algorithm to find a solution to a stochastic Simple Assembly Line Balancing (SALB-1) problem. In this case the SALB-1 problem is solve; thus, the number of open cells is unknown as well as the assignation of the task to the open cells.
+This project has the files of a proposed three-part algorithm to solve a stochastic line balancing problem in which the objective is to minimise the cycle time.
 
 The three parts are:
-1. Solve the mixed-integer linear programming model using GLPK via Pyomo. The files are:
-    - pyomo_implementation.py
-    - gearbox_instance.xlsx
-2. Create a SIMIO simulation model add variability to the balancing using a set of parameter. 
+1. Solve the mixed-integer linear programming model using Gurobi Optimiser. The files are:
+   * SALB_gurobi
+      solver_grb.py
+   * main.py
+   * Instances_Data
+        
+2. Create a SIMIO simulation model that adds variability to the balancing using a set of parameters. 
     - The file "Scaled_Model.spfx" has the following experiments:
         - Verification (model verification)
         - Workers_Speed (speed of the workers in cells)
