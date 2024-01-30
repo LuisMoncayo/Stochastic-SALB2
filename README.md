@@ -5,10 +5,9 @@ This project has the files of a proposed three-part algorithm to solve a stochas
 
 The three parts are:
 1. Solve the mixed-integer linear programming model using Gurobi Optimiser. The files are:
-   * SALB_gurobi
-      solver_grb.py
+   * SALB_gurobi: solver_grb.py
    * main.py
-   * Instances_Data
+   * Instances_Data: "small data set_n=20/instance_n=20_391.alb"
         
 2. Create a SIMIO simulation model that adds variability to the balancing using a set of parameters. 
     - The file "Scaled_Model.spfx" has the following experiments:
