@@ -10,18 +10,17 @@ The three parts are:
    * Instances_Data: "small data set_n=20/instance_n=20_391.alb"
         
 2. Create a SIMIO simulation model that adds variability to the balancing using a set of parameters. 
-    - The file "Scaled_Model.spfx" has the following experiments:
+    - The file "SALB2-Model.spfx" has the following experiments:
         - Verification (model verification)
-        - Workers_Speed (speed of the workers in cells)
-        - IAT (inter--arrival time)
-        - Nu_Workers (number of workers in cells)
+        - Nu_Workers
+        - Workers_Distances
+        - Workers_Distances_IAT
 3. Optimise the value of the parameter by the SIMIO add-on OptQuest.
-    - Optimisation using discreate IAT "OptQuest_Discreate_IAT.spfx"
-    - Optimisation using stochastic IAT "OptQuest_Stochastic_IAT.spfx"
+    - The file "SALB2-Model.spfx":
+        - Workers_Distances_IAT
 
 NOTE: User can download a free version of SIMIO from:
 
 [SIMIO DOWNLOAD](https://www.simio.com/free-simulation-software/index.php)
 
 This repository is related to the following paper:
-
