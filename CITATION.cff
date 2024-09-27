@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Stochastic SALB 2 Problem
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Luis A.
+    family-names: Moncayo-Martinez
+    email: luis.moncayo@itam.mx
+    affiliation: Instituto Tecnologico Autónomo de México
+    orcid: 'https://orcid.org/0000-0003-4619-3808'
+repository-code: 'https://github.com/LuisMoncayo/Stochastic-SALB2'
+abstract: >-
+  We are solving the Stochastic SALB 2 problem using
+  Mathematical Models and Simulation.
+keywords:
+  - SALB
+  - Line Balancing
+  - Simulation
+  - Mathematical Models
+license: Apache-1.0
+version: '1.0'
